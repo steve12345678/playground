@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(255,122,122);
+    background-image: url(./images/bg-intro-desktop.png);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    max-width: 1500;
+    padding: 40px;
+    min-height: 100vh;
+}
+.container>div{
+    flex: 1;
+}
