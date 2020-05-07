@@ -13,12 +13,62 @@ body{
 .container {
     display: flex;
     align-items: center;
-    align-content: center;
+    justify-content: center;
     flex-wrap: wrap;
     max-width: 1500;
     padding: 40px;
-    min-height: 100vh;
+    min-height: 100vh; 
+    margin: 0 auto;
 }
 .container>div{
     flex: 1;
+    padding: 0 20px;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+p{
+    font-size: 15px;
+    opacity: 0.8;
+}
+.box{
+    
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.box-blue{
+    background-color: hsl(248, 32%, 49%);
+}
+/* .form-control>input{
+    border-radius: 5%;
+    padding: 5px;
+    margin: 5px;
+} */
+input {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border:1px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid hsl(249, 10%, 26%) ;
+   background-color: rgba(255, 255, 0, 0.2);
+    /* box-shadow: 10px; */
+}
+
+small {
+    /* display: inline; */
+    /* color: red; */
 }
